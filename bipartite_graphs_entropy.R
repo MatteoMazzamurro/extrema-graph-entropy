@@ -1,4 +1,4 @@
-#This R script supports the finding of Cambie, Dong, Mazzamurro's paper
+#This R script supports the findings in Cambie, Dong, Mazzamurro's paper
 #"Extremal values of degree-based entropies of bipartite graphs"
 #############################
 #Structure:
