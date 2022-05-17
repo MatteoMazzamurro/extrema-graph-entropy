@@ -238,7 +238,7 @@
     m_y_q_x_h$is_h_max<-(abs(m_y_q_x_h$h-h_max)<tol)
     m_y_q_x_h$is_m_qy_min<-(m_y_q_x_h$m_qy==m_qy_min)
     m_y_q_x_h$is_xy_m_min<-(m_y_q_x_h$xy_m==xy_m_min)
-    example_B<-rbind(example_B,m_y_q_x_h)
-    example_B[example_B$is_h_max==TRUE,]
+    #when h is maximal, neither xy-m nor m-qy is maximal.
+    m_y_q_x_h[m_y_q_x_h$is_h_max==TRUE,]
   }
 }
