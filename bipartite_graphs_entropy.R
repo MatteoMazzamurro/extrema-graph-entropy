@@ -65,10 +65,9 @@
     return(difference_graphs_ds)
   }
   
-  #function to compute degree sequence of B(n,m,y), a promising candidate for the minimum entropy graph 
-  #(see http://arxiv.org/abs/2108.13884v1)
-  #In the article "#"Extremal values of degree-based entropies of bipartite graphs"
-  #we prove that this is indeed the case for some choice(s) of 1<=y<=\sqrt(m)
+  #Function to compute the degree sequence of B(n,m,y). 
+  #In the article "#"Extremal values of degree-based entropies of bipartite graphs",
+  #we prove that the extremal graph has to be of this form for some choice(s) of 1<=y<=\sqrt(m)
   B_n_m_y<-function(n,m,y){
     q<-floor(m/y)
     r<-m-y*q
